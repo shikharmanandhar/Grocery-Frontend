@@ -14,13 +14,13 @@ import {useAlert} from "react-alert";
 
 
 const categories = [
-  "Laptop",
-  "Party",
-  "Bottom",
-  "Tops",
-  "Attire",
-  "Camera",
-  "SmartPhones",
+  "KFC",
+  "SHANDAAR MOMO",
+  "90's BREW & BARS",
+  "BURGER BOX",
+  "NANGLO",
+  "KTM FRESH",
+  "THAKALI STATION",
 ];
 
 
@@ -76,7 +76,7 @@ const Products = () => {
           valueLabelDisplay="auto"
           aria-labelledby="range-slider"
           min={0}
-          max={25000}
+          max={7500}
         />
 
         <Typography>Categories</Typography>

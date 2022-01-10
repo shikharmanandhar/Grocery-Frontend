@@ -1,7 +1,7 @@
 footer{
-    padding: 2vmax;
-    background-color: rgb(34, 33, 33);
-    color: white;
+    padding: 1vmax;
+    background-color: rgb(255, 255, 255);
+    color: rgb(22, 4, 4);
     display: flex;
     align-items: center;
     margin-top: 10vh;
@@ -10,17 +10,17 @@ footer{
   .leftFooter {
     width: 20%;
     display: flex;
-  
+
     flex-direction: column;
     align-items: center;
   }
   .leftFooter > h4 {
     font-family: "Roboto";
-    font-size: 1.4vmax;
+    font-size: 1vmax;
   }
   .leftFooter > p {
     text-align: center;
-    font-size: 1.2vmax;
+    font-size: 1.vmax;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
@@ -36,14 +36,15 @@ footer{
   }
   
   .midFooter > h1 {
-    font-size: 4vmax;
+    font-size: 2.5vmax;
     font-family: "Roboto";
-    color: #eb4034;
+    color: #0f0e0e;
   }
   .midFooter > p {
-    max-width: 60%;
+    max-width: 55%;
+    font-size:1vmax;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    margin: 1vmax auto;
+    margin: 0.5vmax auto;
   }
   
   .rightFooter {
@@ -55,18 +56,23 @@ footer{
   }
   .rightFooter > h4 {
     font-family: "Roboto";
-    font-size: 1.4vmax;
+    font-size: 1vmax;
+    color:rgb(0, 0, 0);
     text-decoration: underline;
   }
-  .rightFooter > a {
+  /* .rightFooter > a {
     text-decoration: none;
-    font-size: 1.3vmax;
+    font-size: 1vmax;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: white;
+    color: rgb(12, 10, 10);
     transition: all 0.5s;
     margin: 0.5vmax;
-  }
+  } */
   
   .rightFooter > a:hover {
     color: #eb4034;
+  }
+
+  .rightFooter > LinkedInSvgIcon{
+    color:#0f0e0e;
   }

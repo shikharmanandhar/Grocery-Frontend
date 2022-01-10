@@ -4,6 +4,7 @@ import { useEffect} from "react";
 import Header from "./components/layout/Header/Header.js";
 import Footer from "./components/layout/Footer/Footer.js";
 import Home from "./components/Home/Home.js";
+
 import Products from "./components/Product/Products.js";
 import ProductDetails from "./components/Product/ProductDetails.js"
 import Search from "./components/Product/Search.js" 
@@ -24,6 +25,7 @@ import Cart from "./components/Cart/Cart.js"
 import Shipping from "./components/Cart/Shipping.js"
 import ConfirmOrder from "./components/Cart/ConfirmOrder.js"
 import axios from "axios";
+
 import Payment from "./components/Cart/Payment.js"
 import {Elements} from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";

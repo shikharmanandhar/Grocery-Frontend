@@ -7,7 +7,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 
 const About = () => {
     const visitGithub = () => {
-        window.open("https://github.com/Meet19aug",'_blank').focus();
+        window.open("https://github.com",'_blank').focus();
       };
   return <Fragment>
       <div className="aboutSection">
@@ -20,35 +20,34 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src="/meetProfile.jpg"
-              alt="Founder"
+              src="../../../images/cover.jfif"
+              alt="FoodCourt"
             />
-            <Typography>Meet Patel</Typography>
+            <Typography>Meet Us</Typography>
             <Button onClick={visitGithub} color="primary">
               Visit Github
             </Button>
             <span>
-              This is a sample wesbite made by @meetpatel. Only with the
-              purpose to learn MERN Stack.
+              FoodCourt is the best delivery app.
             </span>
           </div>
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
             <a
-              href="https://github.com/Meet19aug"
+              href="https://github.com"
               target="blank"
             >
               <GitHubIcon className="githubSvgIcon" />
             </a>
 
             <a
-              href="https://www.linkedin.com/in/meet-patel-a048231a0/"
+              href="https://www.linkedin.com"
               target="blank"
             >
               <LinkedInIcon className="LinkedInSvgIcon" />
             </a>
 
-            <a href="https://www.instagram.com/patel_meet_1908/" target="_blank">
+            <a href="https://www.instagram.com" target="_blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>

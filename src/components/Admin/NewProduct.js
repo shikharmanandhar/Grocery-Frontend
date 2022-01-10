@@ -34,13 +34,13 @@ const NewProduct = () => {
     const [imagesPreview, setImagesPreview] = useState([]);
   
     const categories = [
-      "Laptop",
-      "Footwear",
-      "Bottom",
-      "Tops",
-      "Attire",
-      "Camera",
-      "SmartPhones",
+      "KFC",
+      "SHANDAAR MOMO",
+      "90's BREW & BARS",
+      "BURGER BOX",
+      "NANGLO",
+      "KTM FRESH",
+      "THAKALI STATION",
     ];
   
     useEffect(() => {

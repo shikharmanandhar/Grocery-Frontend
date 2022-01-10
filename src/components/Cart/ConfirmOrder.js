@@ -20,9 +20,9 @@ const ConfirmOrder = () => {
         0
     );
 
-    const shippingCharge = subTotal > 1000 ? 0 : 200;
+    const shippingCharge = subTotal > 1000 ? 0 : 50;
 
-    const tax = subTotal*0.18;
+    const tax = subTotal*0.13;
 
     const totalPrice = subTotal + tax + shippingCharge;
 
@@ -71,8 +71,8 @@ const ConfirmOrder = () => {
                                         <img src={item.image} alt="Products" />
                                         <Link to={`/product/${item.product}`}>{item.name}</Link>
                                         <span>
-                                            {item.quantity} X ₹{item.price} ={" "}
-                                            <b>₹{item.price * item.quantity}</b>
+                                            {item.quantity} X Nrs. {item.price} ={" "}
+                                            <b>Nrs. {item.price * item.quantity}</b>
                                         </span>
                                     </div>
                                 ))}
@@ -85,15 +85,15 @@ const ConfirmOrder = () => {
                         <div>
                             <div>
                                 <p>SubTotal: </p>
-                                <span>₹{subTotal}</span>
+                                <span>Nrs.{subTotal}</span>
                             </div>
                             <div>
                                 <p>Shipping Charge</p>
-                                <span>₹{shippingCharge}</span>
+                                <span>Nrs.{shippingCharge}</span>
                             </div>
                             <div>
-                                <p>GST:</p>
-                                <span>₹{tax}</span>
+                                <p>VAT:</p>
+                                <span>Nrs.{tax}</span>
                             </div>
                         </div>
                         <div className="orderSummaryTotal">

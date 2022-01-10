@@ -22,7 +22,7 @@ const Search = () => {
     };
     return (
         <Fragment>
-            <MetaData title="Search A Product -- Eshopper" />
+            <MetaData title="Search A Product" />
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident delectus alias natus maxime quam eius magni illum minima consectetur assumenda.
             </p>
