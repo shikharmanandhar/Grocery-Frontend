@@ -70,7 +70,7 @@ const Dashboard = () => {
         <div className="dashboardSummary">
           <div>
             <p>
-              Total Amount <br /> ₹{totalAmount}
+              Total Amount <br /> Nrs. {totalAmount}
             </p>
           </div>
           <div className="dashboardSummaryBox2">
@@ -89,13 +89,13 @@ const Dashboard = () => {
           </div>
         </div>
         
-        <div className="lineChart">
+        {/* <div className="lineChart">
           <Line data={lineState} />
         </div>
 
         <div className="doughnutChart">
           <Doughnut data={doughnutState} />
-        </div>
+        </div> */}
       </div> 
   </div>;
 };
