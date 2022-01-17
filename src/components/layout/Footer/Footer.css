@@ -5,6 +5,8 @@ footer{
     display: flex;
     align-items: center;
     margin-top: 10vh;
+    border-style: solid;
+    border-width: 2px;
   }
   
   .leftFooter {
