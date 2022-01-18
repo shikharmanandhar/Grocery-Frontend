@@ -88,13 +88,13 @@ const ProcessOrder = () => {
                           order.paymentInfo &&
                             order.paymentInfo.status === "succeeded"
                             ? "greenColor"
-                            : "redColor"
+                            : "greenColor"
                         }
                       >
                         {order.paymentInfo &&
                           order.paymentInfo.status === "succeeded"
                           ? "PAID"
-                          : "NOT PAID"}
+                          : "PAID"}
                       </p>
                     </div>
 
@@ -128,8 +128,8 @@ const ProcessOrder = () => {
                           <img src={item.image} alt="Products" />
                           <Link to={`/product/${item.product}`}>{item.name}</Link>
                           <span>
-                            {item.quantity} X ₹{item.price} ={" "}
-                            <b>₹{item.price * item.quantity}</b>
+                            {item.quantity} X Nrs. {item.price} ={" "}
+                            <b>Nrs. {item.price * item.quantity}</b>
                           </span>
                         </div>
                       ))}
