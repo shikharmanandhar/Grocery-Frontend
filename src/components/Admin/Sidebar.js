@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Sidebar.css"
-import logo from "../../images/logo.png";
+import "./Sidebar.css";
+import logo from "../../images/R.png";
 import { Link } from "react-router-dom";
 import { TreeItem } from '@material-ui/lab';
 import { TreeView } from '@material-ui/lab';
@@ -16,7 +16,7 @@ import RateReviewIcon from "@material-ui/icons/RateReview";
 const Sidebar = () => {
   return <div className="sidebar">
     <Link to="/">
-        <img src={logo} alt="EShooper" />
+        <img src={logo} alt="Foodcourt" />
       </Link>
       <Link to="/admin/dashboard">
         <p>
