@@ -1,6 +1,7 @@
 .banner {
-  background-image: url("../../images/cover.jfif");
+  background-image: url("../../images/b.png");
   background-position: center;
+  /* background-color: black; */
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vmin;
@@ -9,13 +10,12 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  color: white;
+  /* color: rgb(10, 9, 9); */
 }
 
 .banner > h1 {
-  margin: 5vmax;
-
-  font: 600 2.5vmax "Roboto";
+  margin: 2vmax;
+  font: 700 2.7vmax "Roboto";
 }
 
 .banner > p {
@@ -23,19 +23,21 @@
 }
 
 .banner > a > button {
+
   margin-bottom: 5vmax;
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(236, 233, 26);
   border: 1px solid white;
   border-radius: 0;
   padding: 1vmax;
   transition: all 0.5s;
-  width: 9vmax;
-  font: 500 1vmax "Roboto";
+  width: 10vmax;
+  font: 500 2vmax "Roboto";
+
 }
 .banner > a > button:hover {
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
+  background-color: rgba(230, 5, 5, 0);
+  color: rgb(0, 0, 0);
 }
 
 .banner::after {
