@@ -1,0 +1,11 @@
+/* .productCard{
+    background-color: rgb(247, 245, 245); */
+/* } */
+
+.productCard>img{
+    margin-bottom: auto;
+}
+
+.productCard>a{
+    margin-top: auto;
+}
