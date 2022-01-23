@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { Link } from "react-router-dom";
 import { Rating }from "@material-ui/lab";
+import "./ProductCard.css";
 
 
 
@@ -22,7 +23,7 @@ const ProductCard = ({ product }) => {
           ({product.numOfReviews} Reviews)
         </span>
       </div>
-      <span>{`₹${product.price}`}</span>
+      <span>{`Nrs. ${product.price}`}</span>
     </Link>
 
   );
