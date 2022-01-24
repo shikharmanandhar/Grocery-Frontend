@@ -28,15 +28,16 @@ const Home = () => {
       ) : (
         <Fragment>
           <MetaData title="FoodCourt" />
+          
           <div className="banner">
-            <p>Welcome to FoodCourt</p>
-            <h1>FIND AMAZING PRODUCTS BELOW</h1>
-
+            {/* <p>Welcome to FoodCourt</p> */}
+            <h1>FIND AMAZING PRODUCTS BELOW</h1> 
+            {
             <a href="#productContainer">
               <button>
                 Scroll <CgMouse />
               </button>
-            </a>
+            </a> }
           </div>
 
           <h2 className="homeHeading">Featured Products</h2>
