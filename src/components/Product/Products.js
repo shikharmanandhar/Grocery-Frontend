@@ -92,8 +92,8 @@ const Products = () => {
           ))}
         </ul>
         <fieldset>
-          <Typography component="legend">Ratings Above</Typography>
-          <Slider
+          <Typography component="legend">Minimum Rating</Typography>
+          <Slider 
             value={ratings}
             onChange={(e, newRating) => {
               setRatings(newRating);
