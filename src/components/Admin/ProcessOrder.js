@@ -110,7 +110,7 @@ const ProcessOrder = () => {
                       <p
                         className={
                           order.orderStatus && order.orderStatus === "Delivered"
-                            ? "greenColor"
+                            ? ""
                             : "redColor"
                         }
                       >
