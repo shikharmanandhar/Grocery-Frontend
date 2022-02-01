@@ -26,6 +26,7 @@ const Search = () => {
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident delectus alias natus maxime quam eius magni illum minima consectetur assumenda.
             </p>
+            <div className="searchbackground">
             <form className="searchBox" onSubmit={searchSubmitHandler}>
                 <input
                     type="text"
@@ -34,6 +35,7 @@ const Search = () => {
                 />
                 <input type="submit" value="Search" />
             </form>
+            </div>
         </Fragment>
     )
 }
