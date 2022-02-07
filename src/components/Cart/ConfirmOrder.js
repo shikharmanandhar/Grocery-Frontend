@@ -60,7 +60,7 @@ const ConfirmOrder = () => {
                                 <p>Address : </p>
                                 <span>{address}</span>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                     <div className="confirmCartItems">
                         <Typography>Your Cart Items: </Typography>
@@ -98,7 +98,7 @@ const ConfirmOrder = () => {
                         </div>
                         <div className="orderSummaryTotal">
                             <p><b>Total:</b></p>
-                            <span>₹{totalPrice}</span>
+                            <span>Nrs.{totalPrice}</span>
                         </div>
                         <button onClick={proceedToPayment}>Procees To Payment</button>
                     </div>
