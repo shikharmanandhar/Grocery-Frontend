@@ -93,7 +93,7 @@ const ProductDetails = () => {
         <Fragment>
             {loading ? <Loader /> : (<Fragment>
                 <div className="ProductDetails">
-                    <MetaData title={`${product.name} -- ESHOPPER`} />
+                    <MetaData title={`${product.name} -- Foodcourt`} />
                     <div>
                         <Carousel>
                             {product.images &&
@@ -117,7 +117,7 @@ const ProductDetails = () => {
                             <span className='detailsBlock-2-span'>({product.numOfReviews} Reviews)</span>
                         </div>
                         <div className="detailsBlock-3">
-                            <h1>{`₹${product.price}`}</h1>
+                            <h1>{`Nrs.${product.price}`}</h1>
                             <div className="detailsBlock-3-1">
                                 <div className="detailsBlock-3-1-1">
                                     <button onClick={decreseQuantity}>-</button>
