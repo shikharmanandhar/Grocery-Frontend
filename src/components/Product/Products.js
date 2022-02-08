@@ -58,7 +58,7 @@ const Products = () => {
   let count = filteredProductsCount;
   return <Fragment>{loading ? <Loader /> :
     <Fragment>
-      <MetaData title="PRODUCTS -- Eshopper"/>
+      <MetaData title="PRODUCTS -- Foodcourt"/>
       <h2 className="productsHeading">Products</h2>
 
       <div className="products">
