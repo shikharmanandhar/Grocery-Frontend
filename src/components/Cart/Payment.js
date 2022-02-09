@@ -127,7 +127,7 @@ const Payment = () => {
         <div className="paymentContainer">
             <form className="paymentForm" onSubmit={(e) => submitHandler(e)}>
                 <Typography>Click & Pay</Typography>
-                {/* <div>
+                <div>
                     <CreditCardIcon />
                     <CardNumberElement className="paymentInput" />
                 </div>
@@ -138,7 +138,7 @@ const Payment = () => {
                 <div>
                     <VpnKeyIcon />
                     <CardCvcElement className="paymentInput" />
-                </div> */}
+                </div>
 
                 <input
                     type="submit"
