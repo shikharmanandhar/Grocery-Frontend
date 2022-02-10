@@ -9,7 +9,7 @@ import axios from "axios";
 import "./Payment.css"
 import CreditCardIcon from "@material-ui/icons/CreditCard";
 import EventIcon from "@material-ui/icons/Event";
-import VpnKeyIcon from "@material-ui/icons/VpnKey";
+// import VpnKeyIcon from "@material-ui/icons/VpnKey";
 import { useNavigate } from 'react-router-dom';
 import { createOrder, clearErrors } from '../../actions/orderAction';
 
