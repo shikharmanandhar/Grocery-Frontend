@@ -20,7 +20,7 @@ const Payment = () => {
 
     const dispatch = useDispatch();
     const alert = useAlert();
-    const stripe = useStripe();
+    // const stripe = useStripe();
     // const elements = useElements();
     const payBtn = useRef(null);
 
