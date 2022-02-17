@@ -108,7 +108,7 @@ const UpdateUser = () => {
                         <VerifiedUserIcon />
                         <select value={role} onChange={(e) => setRole(e.target.value)}>
                             <option value="">Choose Role</option>
-                            {/* <option value="admin">Admin</option> */}
+                            <option value="admin">Admin</option>
                             <option value="user">User</option>
 
                         </select>
